@@ -16,7 +16,7 @@ export default class Game extends React.Component {
             <div className='grid'>
                 {matrix.map((row,index) => 
                     <Row key={index}>
-                        { row.map( id => <Cell key={id} id={id} /> ) }
+                        { row.map( id => <Cell key={id}>{id}</Cell> ) }
                     </Row>
                 )}
             </div>

@@ -1,11 +1,6 @@
-import React from 'react';
+import styled from 'styled-components';
 
-export default class Row extends React.Component {
-    render() {
-        return(
-            <div className='row'>
-                {this.props.children}
-            </div>
-        )
-    }
-}
+const Row = styled.div`
+`
+
+export default Row;

@@ -1,11 +1,11 @@
-import React from 'react';
+import styled from 'styled-components';
 
-export default class Cell extends React.Component {
-    render() {
-        return(
-            <div className='cell'>
-                {this.props.id}
-            </div>
-        )
-    }
-}
+const Cell = styled.div`
+    background: papayawhip;
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    text-align: center;
+`
+
+export default Cell;
